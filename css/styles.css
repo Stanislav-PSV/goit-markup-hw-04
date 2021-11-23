@@ -147,9 +147,12 @@ a {
     url(../images/hero-Img.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: contain;
+  background-size: contain;
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-title {
   font-weight: 900;
@@ -331,8 +334,12 @@ a {
 /*  Section Footer */
 .footer {
   background-color: #2f303a;
+  background-size: contain;
+  max-width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .foter-conteiner {
   display: flex;
